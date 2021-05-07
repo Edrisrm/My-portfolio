@@ -318,7 +318,7 @@ header h1 {
   width: 40%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .footer-right ul {
@@ -326,9 +326,8 @@ header h1 {
   list-style: none;
 }
 
-.footer-right ul li a i {
-  width: 40px;
-  height: auto;
+.footer-right ul li {
+  margin-right: 25px;
 }
 
 .img-responsive {
