@@ -238,7 +238,7 @@ header h1{
   
 
     stroke-dashoffset: calc(440 - (440 * var(--value)) / 100);
-    stroke: #03a9f4;
+    stroke: $color-blue;
 }
 
 

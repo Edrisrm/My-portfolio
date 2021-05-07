@@ -270,7 +270,7 @@ header h1 {
 
 .box .percent svg circle:nth-child(2) {
   stroke-dashoffset: calc(440 - (440 * var(--value)) / 100);
-  stroke: #03a9f4;
+  stroke: #56BCF5;
 }
 
 .box .percent .number {
