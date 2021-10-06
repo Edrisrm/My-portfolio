@@ -17,7 +17,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
-  color: #2A2A2A;
+  color: #363434;
 }
 
 h1 {
@@ -156,7 +156,7 @@ header h1 {
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 1px;
-  color: #2A2A2A;
+  color: #363434;
   transition: color 0.3s;
 }
 
@@ -215,6 +215,19 @@ header h1 {
   }
 }
 
+.kwoledge {
+  height: 100%;
+}
+
+.kwoledge h3 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
+  padding: 0, 50px;
+}
+
 .main-container h2 {
   justify-content: center;
   text-align: center;
@@ -222,8 +235,8 @@ header h1 {
 
 .box {
   position: relative;
-  width: 30%;
-  height: 300px;
+  width: 22%;
+  height: 220px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -300,7 +313,11 @@ header h1 {
   letter-spacing: 1px;
 }
 
-.row {
+.signature {
+  font-size: 15px;
+}
+
+.footer {
   width: 100%;
   height: 200px;
   background-color: #F2F3F4;
@@ -384,7 +401,7 @@ header h1 {
     width: 100%;
   }
 
-  .row {
+  .footer {
     flex-direction: column;
   }
 
