@@ -16,11 +16,10 @@
             <div class="nav-contenedor">
                 <div class="nav-image">
                     <img class="img-circle" src="assets/Edris_perfil.jpg" alt="Edris">
-
                 </div>
                 <div class="nav-items">
                     <ul>
-                        <li><a href="https://drive.google.com/uc?export=download&id=1nzeBgpVXhW41kdViSC0KJMxV7vgce9rM" target="_blank">Download Resume</a></li>
+                        <li><a href="https://drive.google.com/uc?export=download&id=1TZje2F3CLhPk78mkojvB1Goaf9GQeWs5" target="_blank">Download Resume</a></li>
                         <li><a href="mailto:edrisriosmorales@gmail.com" target="_blank">Contact</a></li>
                     </ul>
                 </div>
@@ -52,10 +51,27 @@
                             <img src="https://cdn.icon-icons.com/icons2/1993/PNG/512/arrow_arrows_back_direction_left_navigation_right_icon_123236.png"
                             alt="Flecha">
                         </a>
-
                     </div>
                 </div>
-
+            </div>
+        </div>
+        <div class="main-container">
+            <div class="row-projects">
+                <div class="project">
+                    <img class="img-responsive img-proyecto" src="assets/treeckodex_landing.png" alt="T-hunter">
+                </div>
+                <div class="description-project">
+                    <h2>Treeckodex</h2>
+                    <p>Web site about all information of Pokemon. Made with React, implements CI/CD, with a strong versdion control. 
+                    </p>
+                    <div class="enlace">
+                        <a href="https://treeckodex.netlify.app/" target="_blank">See project</a>
+                       <a href="https://treeckodex.netlify.app/" target="_blank">
+                        <img src="https://cdn.icon-icons.com/icons2/1993/PNG/512/arrow_arrows_back_direction_left_navigation_right_icon_123236.png"
+                        alt="Flecha">
+                    </a> 
+                    </div>
+                </div>
             </div>
         </div>
         <div class="main-container">
@@ -77,12 +93,11 @@
                             <img src="https://cdn.icon-icons.com/icons2/1993/PNG/512/arrow_arrows_back_direction_left_navigation_right_icon_123236.png"
                             alt="Flecha">
                         </a>
-
                     </div>
                 </div>
-
             </div>
         </div>
+
         <div class="main-container">
             <div class="row-projects">
                 <div class="project">
@@ -102,72 +117,70 @@
                         <img src="https://cdn.icon-icons.com/icons2/1993/PNG/512/arrow_arrows_back_direction_left_navigation_right_icon_123236.png"
                         alt="Flecha">
                     </a> 
-
                     </div>
                 </div>
-
             </div>
         </div>
-       <div class="kwoledge">
-                <h3>My knowledge</h3>
-       </div>
+        <div class="kwoledge">
+            <h3>My knowledge</h3>
+        </div>
         <div class="main-container">
             <div class="box">
                 <div class="percent">
-                        <img width="100px" src="assets/php.svg" alt="Github-logo">
+                    <img width="100px" src="assets/php.svg" alt="Github-logo">
                 </div>
                 <h2 class="text">PHP</h2>
             </div>
             <div class="box">
                 <div class="percent">
-                        <img width="100px" src="assets/react.svg" alt="Github-logo">
+                    <img width="100px" src="assets/react.svg" alt="Github-logo">
                 </div>
                 <h2 class="text">React</h2>
             </div>
             <div class="box">
                 <div class="percent">
                     <img width="100px" src="assets/nodejs.svg" alt="Github-logo">
-                    
                 </div>
                 <h2 class="text">Node js</h2>
             </div>
             <div class="box">
                 <div class="percent">
                     <img width="100px" src="assets/angular.svg" alt="Github-logo">
-                  >
                 </div>
                 <h2 class="text">Angular</h2>
             </div>
             <div class="box">
                 <div class="percent">
                     <img width="100px" src="assets/typescript.svg" alt="Github-logo">
-                   
                 </div>
                 <h2 class="text">Typescript</h2>
             </div>
             <div class="box">
                 <div class="percent">
-                    <img width="100px" src="assets/android-color.svg" alt="Github-logo">
-                   
-                </div>
-                <h2 class="text">Mobile</h2>
-            </div>
-            <div class="box">
-                <div class="percent">
                     <img width="100px" src="assets/react.svg" alt="Github-logo">
-                    
                 </div>
                 <h2 class="text">React-Native</h2>
             </div>
+            <div class="box">
+                <div class="percent">
+                    <img width="100px" src="assets/java-svgrepo-com.svg" alt="Github-logo">
+                </div>
+                <h2 class="text">Java</h2>
+            </div>
+            <div class="box">
+                <div class="percent">
+                    <img width="100px" src="assets/python-svgrepo-com.svg" alt="Github-logo">
+                </div>
+                <h2 class="text">Python</h2>
+            </div>
         </div>
-
     </div>
 
     <footer>
         <div class="container-footer">
             <div class="footer">
                 <div class="footer-left">
-                    <p class="signature">&copy; 2021 Edris Rios Morales</p>
+                    <p class="signature">&copy; <span id="current-year"></span> Edris Rios Morales</p>
                 </div>
                 <div class="footer-right">
                     <ul>
@@ -175,14 +188,15 @@
                         <li><a href="https://linkedin.com/in/edris-rios-morales-56935b1a2" target="_blank"><img width="45px" src="assets/linkedin.svg" alt="Github-logo"></a></li>
                         <li><a href="mailto:edrisriosmorales@gmail.com" target="_blank"><img width="45px" src="assets/email.svg" alt="Github-logo"></a></li>
                     </ul>
-
                 </div>
             </div>
         </div>
     </footer>
 
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
     <script src="https://kit.fontawesome.com/f9ab100ba1.js" crossorigin="anonymous"></script>
-
 </body>
 
 </html>
